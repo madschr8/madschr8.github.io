@@ -194,3 +194,24 @@ footer {
   color: var(--text-mid);
   opacity: 0.6;
 }
+
+/* ── Mobile ── */
+@media (max-width: 640px) {
+  .bg {
+    background-position: 72% bottom;
+  }
+
+  #hero {
+    align-items: flex-start;
+    padding: 5rem 1.5rem 3rem;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+
+  .hero-content h1 {
+    white-space: normal;
+    font-size: 1.6rem;
+  }
+}
